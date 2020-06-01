@@ -1,8 +1,8 @@
 Cria uma instancia ec2 t2.micro
-associa um ip publico
-grava ip publico em txt
-cria e associa um security group com acesso a porta 80
-instala apache
+Associa um ip publico
+Grava ip publico em txt
+Cria e associa um security group com acesso a porta 80
+Instala apache
 
 
 INSTRUÇOES DE USO:
