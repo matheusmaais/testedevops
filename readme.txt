@@ -10,7 +10,7 @@ INSTRUÇOES DE USO:
 Requisitos:
 
 Criar usuario programatico no IAM da AWS com acesso de administrador.
-Anotar Acess Key e Secret Key
+Anotar Access Key e Secret Key
 
 Instalar AWS CLI
 https://docs.aws.amazon.com/pt_br/cli/latest/userguide/install-cliv2.html
