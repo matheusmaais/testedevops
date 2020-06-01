@@ -9,7 +9,7 @@ INSTRUÇOES DE USO:
 
 Requisitos:
 
-Criar usuario pragmatico no IAM da AWS com acesso de administrador.
+Criar usuario programatico no IAM da AWS com acesso de administrador.
 Anotar Acess Key e Secret Key
 
 Instalar AWS CLI
