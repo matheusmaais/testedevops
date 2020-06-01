@@ -28,7 +28,7 @@ terraform init
 terraform plan
 terraform apply
 
-apos a criacao do stack, O terraform gerara um arquivo chamado public-ip.txt, que tera como conteudo o IP da instancia criada
+apos a criacao do stack, O terraform vai gerar um arquivo public-ip.txt, que tera como conteúdo o IP da instancia criada
 Colar o ip informado no navegador (processo de instalaçao do apache demora cerca de 2min apos a criaçao da instancia)
 
 
