@@ -4,10 +4,16 @@ resource "aws_security_group" "sg" {
   
 
   ingress {
-    from_port   = 80
-    to_port     = 80
+    from_port   = var.http_port
+    to_port     = var.http_port
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = [var.my_system]
+  }
+  ingress {
+    from_port   = var.ssh_port
+    to_port     = var.ssh_port
+    protocol    = "tcp"
+    cidr_blocks = [var.my_system]
   }
 
   egress {
