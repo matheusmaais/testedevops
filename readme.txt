@@ -1,16 +1,16 @@
 Cria uma instancia ec2 t2.micro
-Associa um ip publico
-Grava ip publico em txt
-Cria e associa um security group com acesso a porta 80
-Instala apache
+associa um ip publico
+grava ip publico em txt
+cria e associa um security group com acesso a porta 80
+instala apache
 
 
 INSTRUÇOES DE USO:
 
 Requisitos:
 
-Criar usuario programatico no IAM da AWS com acesso de administrador.
-Anotar Access Key e Secret Key
+Criar usuario pragmatico no IAM da AWS com acesso de administrador.
+Anotar Acess Key e Secret Key
 
 Instalar AWS CLI
 https://docs.aws.amazon.com/pt_br/cli/latest/userguide/install-cliv2.html
@@ -28,7 +28,7 @@ terraform init
 terraform plan
 terraform apply
 
-apos a criacao do stack, O terraform vai gerar um arquivo public-ip.txt, que tera como conteúdo o IP da instancia criada
+apos a criacao do stack, O terraform gerara um arquivo chamado public-ip.txt, que tera como conteudo o IP da instancia criada
 Colar o ip informado no navegador (processo de instalaçao do apache demora cerca de 2min apos a criaçao da instancia)
 
 
